@@ -1,0 +1,11 @@
+build/
+dist/
+out/
+vcpkg_installed/
+*.las
+*.laz
+*.pcd
+*.ply
+__pycache__/
+*.pyc
+.vs/
