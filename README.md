@@ -54,7 +54,13 @@ git clone --recurse-submodules https://github.com/band72/lio-sam-offline.git
 
 ## Build platforms
 
-Windows (MSVC 2022), Linux (GCC/Clang) and macOS (Clang), via CMake and vcpkg.
+| Platform | Target | Toolchain |
+|---|---|---|
+| Windows | Windows 11 25H2/26H2 x64 (Windows 10 22H2 while ESU lasts) | MSVC v143 (VS 2022) |
+| Linux | Ubuntu 22.04 / 24.04 LTS x86_64 (AppImage for other distros) | GCC 11+ |
+| macOS | macOS 14+ on Apple Silicon (arm64) | Apple Clang (Xcode 16+) |
+
+All built with CMake + vcpkg (manifest mode). Full details: see [TODO.md](TODO.md#target-platforms-and-versions-reviewed-2026-11).
 
 ## License
 
