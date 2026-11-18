@@ -62,7 +62,14 @@ git clone --recurse-submodules https://github.com/band72/lio-sam-offline.git
 
 All built with CMake + vcpkg (manifest mode). Full details: see [TODO.md](TODO.md#target-platforms-and-versions-reviewed-2026-11).
 
-## License
+## License and attribution
 
-MIT (see [LICENSE](LICENSE)), matching LIO-SAM-V2. Algorithms derive from LIO-SAM (Tixiao Shan et al.);
-keep upstream attribution in the source headers.
+Based on **LIO-SAM** by Tixiao Shan et al. (IROS 2020), which is licensed under **BSD 3-Clause**
+(© 2020 Tixiao Shan, © 2021 Christoph Gruber), and on LeGO-LOAM (BSD 3-Clause, © 2018 Robust Field Autonomy
+Lab). Code derived from either stays under BSD 3-Clause; see [licenses/](licenses/). New code written for this
+project is MIT (see [LICENSE](LICENSE)). Full details, the paper citations and BibTeX are in
+[NOTICE.md](NOTICE.md).
+
+If you use this project, please cite: T. Shan et al., "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via
+Smoothing and Mapping," IROS 2020, pp. 5135–5142,
+[doi:10.1109/IROS45743.2020.9341176](https://doi.org/10.1109/IROS45743.2020.9341176).
